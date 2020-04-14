@@ -35,7 +35,7 @@
     {
       "name": "[variables('responseAlertName')]",
       "type": "Microsoft.Insights/alertrules",
-      "apiVersion": "2014-04-01",
+      "apiVersion": "2016-03-01",
       "location": "[parameters('location')]",
       "dependsOn": [
         "[resourceId('Microsoft.Insights/components', variables('appInsName'))]"
